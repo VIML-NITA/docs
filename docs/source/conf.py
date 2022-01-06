@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'CuBot'
+copyright = '2022, VIML-NITA'
+author = 'VIML-NITA'
 
 release = '0.1'
 version = '0.1.0'
