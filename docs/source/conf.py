@@ -3,8 +3,8 @@
 # -- Project information
 
 project = 'CuBot'
-copyright = '2022, VIML-NITA'
-author = 'VIML-NITA'
+copyright = '2022, VIML-NITA Contributors'
+author = 'VIML-NITA Contributors'
 
 release = '0.1'
 version = '0.1.0'
@@ -13,11 +13,12 @@ version = '0.1.0'
 
 extensions = [
     'sphinx.ext.duration',
-    'sphinx.ext.doctest',
-    'sphinx.ext.autodoc',
+#    'sphinx.ext.doctest',
+#    'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-#    'myst_parser',
+#    'myst_parser', # Markdown Parser (Disabled For Now)
+#    'sphinx.ext.todo', # 'TODO:' Tag Parser
 ]
 
 intersphinx_mapping = {
@@ -27,10 +28,15 @@ intersphinx_mapping = {
 intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
+source_suffix = ['.rst']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'env', 'generated', '.vscode', 'README.rst']
 
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
+html_theme_options = {
+    'collapse_navigation': False
+}
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'

@@ -1,7 +1,7 @@
 Usage
 =====
 
-.. _installation-beginning:
+.. _installation-1:
 
 Installation
 ------------
@@ -18,13 +18,10 @@ Creating recipes
 To retrieve a list of random ingredients,
 you can use the ``CuBot.get_random_ingredients()`` function:
 
-.. autofunction:: CuBot.get_random_ingredients
-
 The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`CuBot.get_random_ingredients`
+or ``"veggies"``.
+Otherwise, :py:func:`CuBot.get_random_ingredients`
 will raise an exception.
-
-.. autoexception:: CuBot.InvalidKindError
 
 For example:
 

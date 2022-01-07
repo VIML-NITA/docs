@@ -1,0 +1,2 @@
+Hector SLAM (ROS) Module
+=========================
