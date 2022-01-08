@@ -1,4 +1,4 @@
-Building ROS Melodic from Source For Ubuntu 20.04 LTS
+Building ROS Melodic from Source on Ubuntu 20.04 LTS
 ======================================================
 
 Install from source requires that you download and compile the source code on your own.
@@ -21,8 +21,8 @@ Install build dependencies:
 
     $ sudo pip install -U rosdep rosinstall_generator vcstool rosinstall
 
-Setup ROS Repositories for Ubuntu
-----------------------------------
+Setup ROS Specific Repositories for Ubuntu
+------------------------------------------
 
 Add ROS Specific Repostiories for Ubuntu Distribution, otherwise you would have to manually search and install missing dependencies (Ref: `Installation Guide ROS Melodic <http://wiki.ros.org/melodic/Installation/Ubuntu#Installation>`_)
 
