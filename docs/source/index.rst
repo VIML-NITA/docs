@@ -33,6 +33,7 @@ Contents
    :caption: ROS Specific 
    :name: sec-ros-specific
 
+   ros-specific/build-ros-source
    ros-specific/catkin_ws
    ros-specific/hector-SLAM
    ros-specific/rplidar
