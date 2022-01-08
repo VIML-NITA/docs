@@ -46,7 +46,7 @@ Initializing `rosdep`
     $ rosdep update
 
 Installation
-=============
+-------------
 
 Start by building the core ROS packages.
 
