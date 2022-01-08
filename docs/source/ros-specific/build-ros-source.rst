@@ -45,11 +45,6 @@ Initializing `rosdep`
     $ sudo rosdep init
     $ rosdep update
 
-Installation
--------------
-
-Start by building the core ROS packages.
-
 Create a `catkin` Workspace
 ----------------------------
 
@@ -64,7 +59,8 @@ In order to build the ``core packages``, you will need a catkin workspace. Creat
 
 Next we will want to fetch the ``core packages`` so we can build them.
 We will use ``vcstool``` for this.
-Select the ``vcstool`` command for the particular variant you want to install:
+
+Start by building the ``core`` ROS packages and add additional packages after the build completion for essential core packages.
 
 **ROS-Comm (Bare Bones):** ROS package, build, and communication libraries. **NO GUI** tools.
 
